@@ -20,9 +20,9 @@ spec:
       - name: buildRevision
         value: $(tt.params.buildRevision)
       - name: appGitUrl
-        value: 'git@github.com:sdaschner/coffee-testing.git'
+        value: 'git@github.com:kunalsuryansh/coffee-testing.git'
       - name: configGitUrl
-        value: 'git@github.com:sdaschner/coffee-testing-config.git'
+        value: 'git@github.com:kunalsuryansh/coffee-testing-config.git'
       - name: appImage
         value: 'docker.sebastian-daschner.com/coffee-testing'
       workspaces:

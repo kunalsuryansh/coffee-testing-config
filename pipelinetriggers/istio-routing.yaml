@@ -22,7 +22,7 @@ metadata:
   namespace: tekton-pipelines
 spec:
   hosts:
-  - "tekton-triggers.daschner.dev"
+  - "tekton-triggers.kunalsuryansh.dev"
   gateways:
   - tekton-triggers
   http:

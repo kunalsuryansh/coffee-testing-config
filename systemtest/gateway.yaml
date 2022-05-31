@@ -11,7 +11,7 @@ spec:
       name: http
       protocol: HTTP
     hosts:
-    - "test.coffee.daschner.dev"
+    - "test.coffee.kunalsuryansh.dev"
 ---
 
 apiVersion: networking.istio.io/v1alpha3
@@ -20,7 +20,7 @@ metadata:
   name: coffee-gateway
 spec:
   hosts:
-  - "test.coffee.daschner.dev"
+  - "test.coffee.kunalsuryansh.dev"
   gateways:
   - coffee-gateway
   http:
